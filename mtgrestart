@@ -1,0 +1,4 @@
+#!/bin/bash
+
+zdaemon -p "python3 mtg.py" -z /root/Discord/MTGBot/ -d stop
+zdaemon -p "python3 mtg.py" -z /root/Discord/MTGBot/ -d start

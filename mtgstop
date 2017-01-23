@@ -1,0 +1,3 @@
+#!/bin/bash
+
+zdaemon -p "python3 mtg.py" -z /root/Discord/MTGBot/ -d stop
